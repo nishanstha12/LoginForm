@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;   
+}
+body{
+    /* From https://css.glass */
+background: rgba(4, 240, 201, 0.486);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(175, 0, 0, 0.1);
+
+
+border: 1px solid rgba(255, 255, 255, 0.51);
+  }
+.container{
+    height: 400px;
+    width: 400px;
+    /* background-color: rgba(34, 231, 221, 0.582); */
+background: rgba(255, 255, 255, 0.38);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  padding: 0 20px 0 20px;
+  border-radius: 6px;
+}
+.container h2{
+    padding-top: 15px;
+    border-bottom: 3px solid blue;
+    width: 25px;
+}
+.text{
+   margin-top: 40px;
+}
+.text-box {
+    border: none;
+    border-bottom: 1px solid rgb(8, 8, 8) ;
+    width: 100%;
+
+}
+.text-box input{
+    width: 100%;
+    height: 40px;
+    border: none;
+    background: none;
+    outline: none;
+    padding-left: 25px;
+}
+.text-box  label{
+position: absolute;
+    top: 95px;
+    left: 25px;
+    font-size: 16px;
+    pointer-events: none;
+    color: rgb(110, 110, 110);
+}
+.text-box2 {
+    border: none;
+    border-bottom: 1px solid rgb(0, 0, 0) ;
+    width: 100%;
+    padding-top: 15px;
+
+}
+.text-box2 input{
+    width: 100%;
+    height: 40px;
+    border: none;
+    background: none;
+    outline: none;
+    padding-left: 21px;
+}
+.text-box2 label{
+position: absolute;
+    top: 38%;
+    left: 25px;
+    font-size: 16px;
+    pointer-events: none;
+    color: rgb(110, 110, 110);
+}
+.remember{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.remember a{
+    text-decoration: none;
+}
+.container button{
+    width: 100%;
+    height: 45px;
+    margin-top: 40px;
+    font-size: 15px;
+    background-color: rgb(58, 58, 252);
+    color: whitesmoke;
+   border: 1px solid whitesmoke;
+   border-radius: 6px;
+   cursor: pointer;
+}
+.log-footer{
+  text-align: center;
+  padding-top: 20px;
+  font-size: 15px;
+}
+.log-footer a{
+    text-decoration: none;
+}
